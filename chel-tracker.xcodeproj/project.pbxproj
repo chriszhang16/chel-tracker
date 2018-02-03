@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD700D21202659CB000E636B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD700D20202659CB000E636B /* AppDelegate.swift */; };
+		BD700D23202659CB000E636B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD700D22202659CB000E636B /* ViewController.swift */; };
+		BD700D26202659CB000E636B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD700D24202659CB000E636B /* Main.storyboard */; };
+		BD700D28202659CB000E636B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD700D27202659CB000E636B /* Assets.xcassets */; };
+		BD700D2B202659CB000E636B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD700D29202659CB000E636B /* LaunchScreen.storyboard */; };
+		BD700D36202659CB000E636B /* chel_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD700D35202659CB000E636B /* chel_trackerTests.swift */; };
+		BD700D41202659CB000E636B /* chel_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD700D40202659CB000E636B /* chel_trackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD700D32202659CB000E636B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD700D15202659CB000E636B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD700D1C202659CB000E636B;
+			remoteInfo = "chel-tracker";
+		};
+		BD700D3D202659CB000E636B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD700D15202659CB000E636B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD700D1C202659CB000E636B;
+			remoteInfo = "chel-tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD700D1D202659CB000E636B /* chel-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chel-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD700D20202659CB000E636B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD700D22202659CB000E636B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD700D25202659CB000E636B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD700D27202659CB000E636B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD700D2A202659CB000E636B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD700D2C202659CB000E636B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD700D31202659CB000E636B /* chel-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chel-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD700D35202659CB000E636B /* chel_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chel_trackerTests.swift; sourceTree = "<group>"; };
+		BD700D37202659CB000E636B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD700D3C202659CB000E636B /* chel-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chel-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD700D40202659CB000E636B /* chel_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chel_trackerUITests.swift; sourceTree = "<group>"; };
+		BD700D42202659CB000E636B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD700D1A202659CB000E636B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD700D2E202659CB000E636B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD700D39202659CB000E636B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD700D14202659CB000E636B = {
+			isa = PBXGroup;
+			children = (
+				BD700D1F202659CB000E636B /* chel-tracker */,
+				BD700D34202659CB000E636B /* chel-trackerTests */,
+				BD700D3F202659CB000E636B /* chel-trackerUITests */,
+				BD700D1E202659CB000E636B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD700D1E202659CB000E636B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD700D1D202659CB000E636B /* chel-tracker.app */,
+				BD700D31202659CB000E636B /* chel-trackerTests.xctest */,
+				BD700D3C202659CB000E636B /* chel-trackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD700D1F202659CB000E636B /* chel-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				BD700D20202659CB000E636B /* AppDelegate.swift */,
+				BD700D22202659CB000E636B /* ViewController.swift */,
+				BD700D24202659CB000E636B /* Main.storyboard */,
+				BD700D27202659CB000E636B /* Assets.xcassets */,
+				BD700D29202659CB000E636B /* LaunchScreen.storyboard */,
+				BD700D2C202659CB000E636B /* Info.plist */,
+			);
+			path = "chel-tracker";
+			sourceTree = "<group>";
+		};
+		BD700D34202659CB000E636B /* chel-trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD700D35202659CB000E636B /* chel_trackerTests.swift */,
+				BD700D37202659CB000E636B /* Info.plist */,
+			);
+			path = "chel-trackerTests";
+			sourceTree = "<group>";
+		};
+		BD700D3F202659CB000E636B /* chel-trackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD700D40202659CB000E636B /* chel_trackerUITests.swift */,
+				BD700D42202659CB000E636B /* Info.plist */,
+			);
+			path = "chel-trackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD700D1C202659CB000E636B /* chel-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD700D45202659CB000E636B /* Build configuration list for PBXNativeTarget "chel-tracker" */;
+			buildPhases = (
+				BD700D19202659CB000E636B /* Sources */,
+				BD700D1A202659CB000E636B /* Frameworks */,
+				BD700D1B202659CB000E636B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chel-tracker";
+			productName = "chel-tracker";
+			productReference = BD700D1D202659CB000E636B /* chel-tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD700D30202659CB000E636B /* chel-trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD700D48202659CB000E636B /* Build configuration list for PBXNativeTarget "chel-trackerTests" */;
+			buildPhases = (
+				BD700D2D202659CB000E636B /* Sources */,
+				BD700D2E202659CB000E636B /* Frameworks */,
+				BD700D2F202659CB000E636B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD700D33202659CB000E636B /* PBXTargetDependency */,
+			);
+			name = "chel-trackerTests";
+			productName = "chel-trackerTests";
+			productReference = BD700D31202659CB000E636B /* chel-trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD700D3B202659CB000E636B /* chel-trackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD700D4B202659CB000E636B /* Build configuration list for PBXNativeTarget "chel-trackerUITests" */;
+			buildPhases = (
+				BD700D38202659CB000E636B /* Sources */,
+				BD700D39202659CB000E636B /* Frameworks */,
+				BD700D3A202659CB000E636B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD700D3E202659CB000E636B /* PBXTargetDependency */,
+			);
+			name = "chel-trackerUITests";
+			productName = "chel-trackerUITests";
+			productReference = BD700D3C202659CB000E636B /* chel-trackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD700D15202659CB000E636B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Chris Zhang";
+				TargetAttributes = {
+					BD700D1C202659CB000E636B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BD700D30202659CB000E636B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD700D1C202659CB000E636B;
+					};
+					BD700D3B202659CB000E636B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD700D1C202659CB000E636B;
+					};
+				};
+			};
+			buildConfigurationList = BD700D18202659CB000E636B /* Build configuration list for PBXProject "chel-tracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD700D14202659CB000E636B;
+			productRefGroup = BD700D1E202659CB000E636B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD700D1C202659CB000E636B /* chel-tracker */,
+				BD700D30202659CB000E636B /* chel-trackerTests */,
+				BD700D3B202659CB000E636B /* chel-trackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD700D1B202659CB000E636B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD700D2B202659CB000E636B /* LaunchScreen.storyboard in Resources */,
+				BD700D28202659CB000E636B /* Assets.xcassets in Resources */,
+				BD700D26202659CB000E636B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD700D2F202659CB000E636B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD700D3A202659CB000E636B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD700D19202659CB000E636B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD700D23202659CB000E636B /* ViewController.swift in Sources */,
+				BD700D21202659CB000E636B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD700D2D202659CB000E636B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD700D36202659CB000E636B /* chel_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD700D38202659CB000E636B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD700D41202659CB000E636B /* chel_trackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD700D33202659CB000E636B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD700D1C202659CB000E636B /* chel-tracker */;
+			targetProxy = BD700D32202659CB000E636B /* PBXContainerItemProxy */;
+		};
+		BD700D3E202659CB000E636B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD700D1C202659CB000E636B /* chel-tracker */;
+			targetProxy = BD700D3D202659CB000E636B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD700D24202659CB000E636B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD700D25202659CB000E636B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD700D29202659CB000E636B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD700D2A202659CB000E636B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD700D43202659CB000E636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD700D44202659CB000E636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD700D46202659CB000E636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "chel-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chel-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD700D47202659CB000E636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "chel-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chel-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD700D49202659CB000E636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "chel-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chel-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chel-tracker.app/chel-tracker";
+			};
+			name = Debug;
+		};
+		BD700D4A202659CB000E636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "chel-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chel-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chel-tracker.app/chel-tracker";
+			};
+			name = Release;
+		};
+		BD700D4C202659CB000E636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "chel-trackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chel-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chel-tracker";
+			};
+			name = Debug;
+		};
+		BD700D4D202659CB000E636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "chel-trackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chel-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chel-tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD700D18202659CB000E636B /* Build configuration list for PBXProject "chel-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD700D43202659CB000E636B /* Debug */,
+				BD700D44202659CB000E636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD700D45202659CB000E636B /* Build configuration list for PBXNativeTarget "chel-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD700D46202659CB000E636B /* Debug */,
+				BD700D47202659CB000E636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD700D48202659CB000E636B /* Build configuration list for PBXNativeTarget "chel-trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD700D49202659CB000E636B /* Debug */,
+				BD700D4A202659CB000E636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD700D4B202659CB000E636B /* Build configuration list for PBXNativeTarget "chel-trackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD700D4C202659CB000E636B /* Debug */,
+				BD700D4D202659CB000E636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD700D15202659CB000E636B /* Project object */;
+}
