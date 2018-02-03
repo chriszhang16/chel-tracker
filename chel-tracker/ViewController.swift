@@ -20,7 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
         //HELLLOOOOOO
     }
-
-
+    
+    //MARK: Actions
+    @IBOutlet weak var reviewScoresButton: UIButton!
+    
 }
 
