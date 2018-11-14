@@ -31,6 +31,7 @@ def juul(user, device, pod):
     empty = False
     rip = False
     pod = 10
+    #loops here
     while pod != empty:
         user = 'happy'
         rip = True
