@@ -38,3 +38,7 @@ def juul(user, device, pod):
         pod -= 1
         if pod == 0:
             empty = True
+
+def newFunc():
+    print("this is another func")
+
