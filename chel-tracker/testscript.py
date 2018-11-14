@@ -30,8 +30,11 @@ def sort(array=[12,4,5,6,7,3,1,15]):
 def juul(user, device, pod):
     empty = False
     rip = False
-
+    pod = 10
     while pod != empty:
         user = 'happy'
         rip = True
         device = 'charged'
+        pod -= 1
+        if pod == 0:
+            empty = True
