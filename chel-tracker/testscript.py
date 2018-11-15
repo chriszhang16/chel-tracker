@@ -26,6 +26,7 @@ def sort(array=[12,4,5,6,7,3,1,15]):
     else:  # You need to hande the part at the end of the recursion - when you only have one element in your array, just return the array.
         return array
 
+print('hello')
 
 def juul(user, device, pod):
     empty = False
