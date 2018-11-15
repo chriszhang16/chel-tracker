@@ -6,8 +6,8 @@ def theMostStupid():
 	print('hello')
 	print('hello again')
 
-def anotherFunction():
-	var6 = 92
+def newGuy():
+	print("hi there")
 
-def finalFunction():
-	variable5 = "hello"
+def newestguy(input1):
+	print('in new function')

@@ -27,10 +27,6 @@ def juul(user, device, pod):
     print('testing everything')
 
 
-def newfuncPart3(input7):
-    #hello
-    print('hello')
-
-def newestFunction(in1):
-    #hi there
-    print("in a new function")
+def newestFunctionPart5():
+    print('hello there')
+    #comment
