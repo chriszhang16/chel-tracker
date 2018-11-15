@@ -24,14 +24,13 @@ def juul(user, device, pod):
         if pod == 0:
             empty = True
     print('hello')
+    print('testing everything')
 
 
-def secondFunc(input2):
-    newVar = 6
-    #added stuff
+def newfuncPart3(input7):
+    #hello
+    print('hello')
 
-def thirdFunc(input3):
-    var4= 9
-    #adding things
-
-
+def newestFunction(in1):
+    #hi there
+    print("in a new function")
