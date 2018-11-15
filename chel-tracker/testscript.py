@@ -5,6 +5,7 @@ from datetime import timedelta
 
 import requests
 
+print('hello')
 
 def sort(array=[12,4,5,6,7,3,1,15]):
     less = []
