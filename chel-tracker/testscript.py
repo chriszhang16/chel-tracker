@@ -25,10 +25,13 @@ def juul(user, device, pod):
             empty = True
     print('hello')
 
-def newFunc(input):
-    seven = 7
-    #new var
-    for x in range(2):
-        print('hello world')
+
+def secondFunc(input2):
+    newVar = 6
+    #added stuff
+
+def thirdFunc(input3):
+    var4= 9
+    #adding things
 
 
