@@ -11,3 +11,7 @@ def newGuy():
 
 def newestguy(input1):
 	print('in new function')
+
+def newerFunction(input2, input6):
+	print('new func')
+	
