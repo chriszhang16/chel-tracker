@@ -1,5 +1,3 @@
-
-
 function js1(x,y) {
 	let x = x + 1;
 	return y;
